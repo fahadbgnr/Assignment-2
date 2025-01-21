@@ -177,7 +177,7 @@
   height: 476px;
   background: linear-gradient(to bottom, #FFF4DC 20%, #FFFFFF 100%);
   box-shadow: 5px 0 10px;
-  border-radius: 18.86px;
+  border-radius: 18px;
   text-align: center;
 }
 
@@ -257,6 +257,28 @@
 
 .card-3-btn {
   color: rgba(135, 0, 255, 1);
+}
+.fa-solid-fa-angle{
+  width: 130px;
+  height: 60px;
+  margin-left: 1100px;
+  margin-top: 80px;
+  
+
+  
+}
+.fas-fa-bar-1{
+  width:60px;
+  height: 60px;
+  background-color: rgba(254, 163, 1, 1) ;
+  border-radius: 50px;
+}
+.fas-fa-bar-2{
+  width:60px;
+  height: 60px;
+  background-color: rgba(254, 163, 1, 1) ;
+  border-radius: 50px;
+
 }
 
 
@@ -349,5 +371,9 @@
     align-items: center;
     margin-top: 400px;
   }
+  .fa-solid-fa-angle{
+    display: none;
+  }
+ 
 
 }
