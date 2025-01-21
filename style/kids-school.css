@@ -92,8 +92,9 @@
     margin-right: 50px;
  }
  .header-img{
-    width: 468px;
-    height: 575px;
+  width: 468px;
+    height: 575px; 
+    
  }
  .header-title h1{
     font-size: 3.5rem;
@@ -121,18 +122,49 @@
     display: none;
  }
  @media screen and (max-width:576px) {
+  .items,
+  .nav-title,
+  .nav-btn{
+    display: block;
+    display: none;
+  }
+  .navbar{
+    width:100%;
+    border: 1px solid rgba(254, 163, 1, 1);
+    margin-top: 0%;
+
+  }
+  .nav-logo{
+    width: 46px;
+    height: 46px;
+    margin-top: 5px;
+    
+   
+  }
+
+
+
+
+
+
     .header{
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 100%;
+        margin-top: 350px;
+        
         
     }
     .header-title{
         width:100%;
-    }
+        margin-top: 20px;
+        text-align: center;
+     }
     .header-img{
-        /* width:calc(100% - 50px); */
         width: 100%;
-        margin: 0 auto;
+        margin-top: 200px;
+        
+        
     }
+   
     
  }
