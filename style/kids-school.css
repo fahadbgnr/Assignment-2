@@ -454,6 +454,13 @@
   font-size: 1.25rem;
   font-weight: bold;
 }
+.footers{
+  flex-direction: column;
+  
+}
+.footer-first-section{
+  margin-bottom: 2rem;
+}
 
 .footer-first-section-description{
   width: 400px;
