@@ -501,7 +501,7 @@
 
 
 
-/* mobail device */
+/* mobile device */
 .hide {
   display: none;
 }
@@ -556,9 +556,6 @@
 
   .header-img {
     width: 100%;
-    margin-top: 200px;
-
-
   }
 
   /* Standard Curriculum  */
@@ -577,12 +574,12 @@
 
   .card-container {
     flex-direction: column;
-    width:100%;
+    width:calc(100% - 28px);
     /* margin: 5px; */
     margin-left: 5px;
+    margin-top: 400px;
     justify-content: center;
     align-items: center;
-    margin-top: 400px;
   }
   .fa-solid-fa-angle{
     display: none;
@@ -696,7 +693,7 @@
 }
 .footer-third-section-title{
   font-size: 1.3rem;
-  margin-top: 15px;
+  margin-top: 5px;
   margin-left:10px ;
 }
 .footer-third-section img{
