@@ -336,8 +336,6 @@
  text-align: center;
  margin-top: 47px;
  margin-left: 20px;
-  
-
 }
 
 .story{
@@ -534,7 +532,7 @@
   }
 .fas-fa-bars{
   display:block;
-  padding: 10px;
+  padding: 15px;
   margin-left: 315px;
   
 }
@@ -566,12 +564,9 @@
   /* Standard Curriculum  */
   .bg-color-1 {
     width: 100%;
-
-
   }
 
   .bg-color-title {
-
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -583,7 +578,8 @@
   .card-container {
     flex-direction: column;
     width:100%;
-    margin: 5px;
+    /* margin: 5px; */
+    margin-left: 5px;
     justify-content: center;
     align-items: center;
     margin-top: 400px;
@@ -601,20 +597,69 @@
   margin-top: 600px;
 }
 .our-btn{
-  margin-left: 100px;
+  width: 134px;
+  height: 30px;
+  margin-left: 150px;
   
 }
 .story-container{
   width: 100%;
-  margin: 0 10px 0 10px;
+  /* margin: 0 10px 0 10px; */
+  margin-left: 10px;
+  margin-right: 0%;
 }
 .story{
   background-size: 100%;
-  width: 100%;
-  margin: 0 10px 0 10px;
-
-
+  width:calc(100% - 20px);
+  margin-top: 30px;
+  gap: 5px;
 }
+.box-1{
+  width: 100%;
+}
+.box-2{
+  width: 100%;
+  
+}
+.box-3{
+  width: 100%;
+}
+.box-4{
+  width: 100%;
+}
+/* box img */
+.box-1 img{
+  width: 100%;
+}
+.box-2 img{
+  width: 100%;
+}
+.box-3 img{
+  width: 100%;
+}
+.box-4 img{
+  width: 100%;
+}
+/* box h4 */
+.box-1 h4{
+  font-size: 0.57rem;
+  margin-left: 15px;
+}
+.box-2 h4{
+  font-size: 0.57rem;
+  margin-left: 15px;
+}
+.box-3 h4{
+  font-size: 0.57rem;
+  margin-left: 20px;
+}
+.box-4 h4{
+  font-size: 0.57rem;
+  margin-left: 15px;
+}
+
+
+
 /* footer section */
 .footer{
   flex-direction: column;
@@ -634,8 +679,6 @@
   width: 100%;
   margin-top:-25px;
   margin-left: 20px;
-  
-
 }
 .About{
   width: 100%;
